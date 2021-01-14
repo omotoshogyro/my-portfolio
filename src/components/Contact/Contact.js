@@ -1,14 +1,26 @@
-import React, { useEffect } from "react";
+import React, {useState, useEffect } from "react";
 import "./Contact.css";
 
 function Contact({ menu, changeMenu }) {
+  
+  const [success, setSuccess] = useState(false);
+
   useEffect(() => {
     changeMenu(2);
   }, [changeMenu]);
 
+  useEffect(() => {
+    if ( window.location.search.includes('success=true') ) {
+      setSuccess(true);
+    }
+  }, []);
+
   return (
     <div className="contact">
+    
+
       <form name="contact" method="POST"  action="/contact/?success=true" data-netlify="true">
+
       <input type="hidden" name="form-name" value="contact" />
         <div className="input__form">
           <label htmlFor="name">

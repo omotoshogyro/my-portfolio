@@ -51,12 +51,11 @@ body::-webkit-scrollbar {
   .mobile__container {
     display: grid;
   }
-  .pages__container__mobile{
+  .pages__container__mobile {
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-content: space-between;
     justify-content: space-between;
   }
-  
 }

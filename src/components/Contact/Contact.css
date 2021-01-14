@@ -4,7 +4,7 @@
 
 .input__form:nth-child(2),
 .input__form:nth-child(3) {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .input__form > label {
   display: flex;
@@ -12,8 +12,10 @@
 }
 .input__form label > span {
   color: #fff;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
+
 .input__form label > input,
 .input__form label > textarea {
   padding: 5px 15px;
@@ -24,14 +26,15 @@
   color: white;
   font-size: 16px;
 }
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   height: 40px;
   border: none;
 }
 textarea {
   height: 250px;
 }
-*::placeholder{
+*::placeholder {
   color: rgba(255, 255, 255, 0.603);
 }
 .contact__btn {
@@ -39,9 +42,7 @@ textarea {
   font-size: 14px;
   margin-top: 20px;
   padding: 15px;
-
   text-align: center;
-
   color: white;
   outline: none;
   border: none;
