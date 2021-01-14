@@ -1,0 +1,104 @@
+.base {
+  padding-right: 100px;
+  color: white;
+  opacity: 1;
+  width: 35vw;
+  height: 80vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Intro Section */
+
+.intro .intro__header {
+  font-size: 40px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.intro .intro__body {
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.603);
+}
+
+/* Active State */
+
+.active {
+  color: white !important;
+}
+.active .width {
+  width: 60px;
+  color: white;
+}
+.active a {
+  color: white;
+}
+
+.base ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.603);
+  margin: 20px 0px;
+  font-weight: lighter;
+}
+ul a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.603);
+}
+.width {
+  width: 30px;
+  height: 0.5px;
+  background-color: #fff;
+  margin: 0px 10px;
+  transition: all 0.5s ease-in-out;
+}
+ul li:hover > .width {
+  width: 60px;
+  color: white;
+}
+
+/* Social icons */
+
+.social__icons,
+.icons__title a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.icons__title:first-child {
+  margin-right: 20px;
+}
+.icons__title:last-child {
+  margin-right: none;
+}
+.icons__title > a {
+  display: flex;
+  align-items: center;
+}
+.icons__title a > .MuiSvgIcon-root {
+  font-size: smaller;
+}
+.icons__title a > .arrow.MuiSvgIcon-root {
+  transition: all .2s ease-in;
+}
+.icons__title:hover  .arrow.MuiSvgIcon-root {
+  transform: translate(5px);
+}
+.icon__type {
+  margin: 0px 10px;
+}
+
+/* Credits section */
+.credit__section {
+  margin-top: 8%;
+}
+.credit__section p {
+  font-size: smaller;
+  color: rgba(255, 255, 255, 0.603);
+}
+.credit__section p > a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,39 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #050527;
+  color: white;
+}
+.error__type {
+  font-size: 60px;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+}
+button.back__btn {
+  color: #fff;
+  width: 20vw;
+  border: none;
+  background-color: white;
+  padding: 15px 25px;
+  margin-top: 20px;
+  background-color: #10105370;
+}
+button.back__btn a {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+}
+
+@media screen and (max-width: 626px) {
+  button.back__btn {
+    width: 40vw;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  /* width: 100%; */
+ display: grid;
+ justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+.footer > .social__icons {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 513px) {
+  .footer  .credit__section {
+    /* margin-bottom: 10px; */
+    /* background-color: #fff; */
+  }
+}
