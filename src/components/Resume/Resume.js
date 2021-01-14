@@ -16,11 +16,10 @@ function Resume({ menu, changeMenu }) {
 
       <div className="resume__description">
         <p className="word">
-          I am a Frontend developer who is passionate about accessibility and
-          problem solving. dedicated in bringing ideas from pixels to live
-          scalable products. I develop responsive applications with user
-          experience as top priority. I’m always ready to adapt according to
-          project specifications irrespective of stack.
+          A Frontend developer aspiring to become a fullstack javascript
+          developer, I love bringing out ideas to live with my coding skills, I
+          develop websites with good UI and responsiveness that will make the
+          browsers proud. Highly skilled in implementing core frontend development tasks including API integration, Proficient in liasing with team members and remote client to effectively conduct requirement gathering and optimize solution as per client requirements. Adept as formulating & implementing strategies to execute key project deliverables & deliver compelling business value to clients
         </p>
       </div>
 
@@ -36,9 +35,7 @@ function Resume({ menu, changeMenu }) {
         </div>
       </div>
 
-
-
-      <div className="Experience">
+      {/* <div className="Experience">
         <div className="section__header">
           <p className="section__type">Experience</p>
           <div className="horizontal__line"></div>
@@ -58,7 +55,7 @@ function Resume({ menu, changeMenu }) {
           harum corporis cumque? Odit, dolorum similique tempore fuga architecto
           rem.
         </div>
-      </div>
+      </div> */}
 
       <div className="Education">
         <div className="section__header">
@@ -72,7 +69,6 @@ function Resume({ menu, changeMenu }) {
         </div>
       </div>
 
-      
       <div className="Projects">
         <div className="section__header">
           <p className="section__type">Projects</p>
