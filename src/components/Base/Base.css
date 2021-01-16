@@ -12,12 +12,12 @@
 
 /* Intro Section */
 
-.intro .intro__header {
+.intro > .intro__header {
   font-size: 40px;
   font-weight: 550;
   margin-bottom: 20px;
 }
-.intro .intro__body {
+.intro > .intro__body {
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.603);
 }
@@ -81,9 +81,9 @@ ul li:hover > .width {
   font-size: smaller;
 }
 .icons__title a > .arrow.MuiSvgIcon-root {
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
-.icons__title:hover  .arrow.MuiSvgIcon-root {
+.icons__title:hover .arrow.MuiSvgIcon-root {
   transform: translate(5px);
 }
 .icon__type {
@@ -91,11 +91,14 @@ ul li:hover > .width {
 }
 
 /* Credits section */
+.credits {
+  font-size: 10px;
+}
 .credit__section {
   margin-top: 8%;
+  /* margin-bottom: 2%; */
 }
 .credit__section p {
-  font-size: smaller;
   color: rgba(255, 255, 255, 0.603);
 }
 .credit__section p > a {

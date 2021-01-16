@@ -13,6 +13,10 @@
   color: white;
   z-index: 1000;
 }
+.header__nav > .logo > img {
+  width: 8vw;
+  object-fit: contain;
+}
 
 .menu__bar,
 .second {
@@ -29,7 +33,6 @@
   transition: all 0.5s ease-in-out;
 }
 .third {
-
   transition: all 0.04s ease-in-out;
 }
 .menubar__transform {
@@ -42,5 +45,22 @@
   display: none;
 }
 
+@media screen and (max-width: 740px) {
+  .header__nav > .logo > img {
+    width: 10vw;
+    object-fit: contain;
+  }
+}
 
-/* @media screen and (max-width: ) */
+@media screen and (max-width: 559px) {
+  .header__nav > .logo > img {
+    width: 68px;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 470px) {
+  .header__nav > .logo > img {
+    width: 50px;
+    object-fit: contain;
+  }
+}

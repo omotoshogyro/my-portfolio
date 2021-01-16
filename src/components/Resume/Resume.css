@@ -2,6 +2,7 @@
   background-color: #10105370;
   padding: 20px;
   color: rgba(255, 255, 255, 0.603);
+  
 }
 .myname {
   color: #fff;
@@ -14,9 +15,13 @@
 .resume__description {
   margin: 25px 0px;
 }
+.resume__description > .word {
+  line-height: 1.5;
+}
 
 .section__body {
   margin: 15px 0px;
+  line-height: 1.5;
 }
 .education {
   color: #fff;

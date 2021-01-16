@@ -39,18 +39,20 @@
 
 @media screen and (max-width: 320px) {
   .home__intro {
-    text-align: left;
+    text-align: center;
   }
 
   span#forName {
     display: block;
-    /* font-size: smaller; */
+    font-size: smaller;
   }
   .explore__btn > button {
     text-align: center;
     font-size: 14px;
   }
 }
+
+
 
 @media screen and (min-width: 425px) {
   .explore__btn > button {

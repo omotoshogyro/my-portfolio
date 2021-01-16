@@ -8,8 +8,8 @@ function Header({ menuBar, setMenuBar }) {
     <div className="header">
       <div className="header__nav">
         <div className="logo">
+          {" "} <img src="mylogopng.png" alt="my logo"/>
           {" "}
-          <h3>Okikiola.dev</h3>{" "}
         </div>
         <div className="menu__btn" onClick={() => setMenuBar(!menuBar)}>
           {/* {menuBar ? <CallMadeIcon /> : <GitHubIcon />} */}
