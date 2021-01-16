@@ -5,9 +5,7 @@
   box-sizing: border-box;
   justify-content: center;
   align-content: center;
-  /* background-color: red; */
   text-align: center;
-  /* margin-bottom: 50%; */
   color: #fff;
 }
 .home__intro__header {
@@ -16,6 +14,7 @@
 }
 .home__intro__body {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5;
 }
 
 .explore__btn > button {
@@ -51,8 +50,6 @@
     font-size: 14px;
   }
 }
-
-
 
 @media screen and (min-width: 425px) {
   .explore__btn > button {

@@ -96,7 +96,7 @@ ul li:hover > .width {
 }
 .credit__section {
   margin-top: 8%;
-  /* margin-bottom: 2%; */
+  margin-bottom: 15px;
 }
 .credit__section p {
   color: rgba(255, 255, 255, 0.603);
