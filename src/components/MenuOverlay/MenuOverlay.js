@@ -27,7 +27,6 @@ function MenuOverlay({ menuBar, setMenuBar }) {
 
   return (
     <div className={`overlay__menu ${menuBar ? "menuBar__active" : ""}`}>
-      
       <div className="overlay__menu__header">
         <Header menuBar={menuBar} setMenuBar={setMenuBar} />
       </div>
@@ -36,7 +35,7 @@ function MenuOverlay({ menuBar, setMenuBar }) {
         <ul>
           {links.map(({ path, name }) => {
             return (
-              <li onClick={() => setMenuBar(!menuBar)}>
+              <li onClick={() => setMenuBar(!menuBar)} key={name}>
                 <Link to={path}>{name}</Link>
               </li>
             );

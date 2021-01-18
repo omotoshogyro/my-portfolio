@@ -19,7 +19,10 @@ function Resume({ menu, changeMenu }) {
           A Frontend developer aspiring to become a fullstack javascript
           developer, I love bringing out ideas to live with my coding skills, I
           develop websites with good UI and responsiveness that will make the
-          browsers proud. Highly skilled in implementing core frontend development tasks including API integration, Proficient in liasing with team members and remote client to effectively conduct requirement gathering and optimize solution as per client requirements. Adept as formulating & implementing strategies to execute key project deliverables & deliver compelling business value to clients
+          browsers proud. Highly skilled in implementing core frontend
+          development tasks including API integration, Proficient in liasing
+          with team members and remote client to effectively conduct requirement
+          gathering and optimize solution as per client requirements.
         </p>
       </div>
 
