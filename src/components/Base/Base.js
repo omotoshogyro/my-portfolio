@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Base.css";
+
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import CallMadeIcon from "@material-ui/icons/CallMade";
-import { Link } from "react-router-dom";
 
 function Base({ menu, changeMenu }) {
   return (
@@ -16,10 +17,10 @@ function Base({ menu, changeMenu }) {
         </h1>
 
         <div className="intro__body">
-          I'm a <span>Frontend Developer</span> . I spend most of my time
-          writing code for application using Javascript . I use CSS and SASS to
-          create efficient user experience. I love talking about tech and also
-          write on my blog ocassionally.
+          I'm a <span>Frontend Developer</span>. I love bringing out ideas to
+          live with my coding skills. I use Javascript/React to implement
+          high end functionalities and experience, My greatest strength is my
+          ability to adapt and learn.
         </div>
       </div>
 
@@ -43,7 +44,6 @@ function Base({ menu, changeMenu }) {
       </nav>
 
       <div className="bottom__parts">
-        
         <div className="social__icons">
           <div className="icons__title">
             <a href="https://github.com/omotoshogyro">

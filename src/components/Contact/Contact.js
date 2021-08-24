@@ -18,7 +18,6 @@ function Contact({ menu, changeMenu }) {
   return (
     <div className="contact">
     
-
       <form name="contact" method="POST"  action="/contact/?success=true" data-netlify="true">
 
       <input type="hidden" name="form-name" value="contact" />

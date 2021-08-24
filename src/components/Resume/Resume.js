@@ -33,32 +33,68 @@ function Resume({ menu, changeMenu }) {
         </div>
 
         <div className="section__body">
-          HTML/CSS, SASS, Javascript, React, Styled Components, Git, EJS,
-          Netlify, Heroku, Search Engine Optimisation.
+          HTML, CSS, SASS, Javascript, React, Styled Components, Redux, MobX, Firebase, Git.
+        </div>
+      </div>
+      <div className="skills">
+        <div className="section__header">
+          <p className="section__type familiar">Familiar With</p>
+          <div className="horizontal__line"></div>
+        </div>
+
+        <div className="section__body">
+          PWA's, NodeJS, Express, MongoDB, Postgress, Sequelize, Web Sockets, SEO.
         </div>
       </div>
 
-      {/* <div className="Experience">
+      <div className="Experience">
         <div className="section__header">
           <p className="section__type">Experience</p>
           <div className="horizontal__line"></div>
         </div>
 
         <div className="section__body">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero esse
-          labore illo debitis rerum minus quaerat quas quo, voluptatibus veniam
-          sequi odit velit cupiditate ex hic quasi dignissimos dolor distinctio
-          vitae? Ipsam asperiores repellendus, sunt doloribus ut nesciunt
-          ducimus sed necessitatibus officia, consequatur illo dolores aut
-          facere, quae earum placeat tempore ullam consectetur suscipit dolorem
-          excepturi. Fuga nisi atque deserunt laudantium iusto eius ullam,
-          nesciunt at sit cupiditate? Error est, dignissimos fugit libero,
-          beatae possimus aspernatur enim porro maiores asperiores consequatur
-          atque pariatur, itaque eligendi! Aliquid incidunt eos quia repellat
-          harum corporis cumque? Odit, dolorum similique tempore fuga architecto
-          rem.
+
+        <div className="job">
+            <p className="job__title">
+              Ikarely health, <span>frontend developer(contrast)</span>
+            </p>
+            <p className="job__duration">december 2020 - june 2021</p>
+            <p className="about__job">
+              I joined the team of health care professionals and software
+              engineers in building an health care service platform, Implemented
+              the API's and built figma components using REACT JS, CSS and
+              Material UI managed the app state using MobX and Context API.
+            </p>
+          </div>
+
+          <div className="job">
+            <p className="job__title">
+              Enye Cohort, <span>frontend developer(Test)</span>
+            </p>
+            <p className="job__duration">march 2021</p>
+            <p className="about__job">
+              Created User interface based on the datas we get back from the API
+              provided to us and also integrated the API to the project, Added
+              some functionality such as filtering, searching and pagination
+              with a bit of animated flow using CSS animations.
+            </p>
+          </div>
+
+          <div className="job">
+            <p className="job__title">
+              Africonnect, <span>Backend Developer (Intern)</span>
+            </p>
+            <p className="job__duration">march 2021 - may 2021</p>
+            <p className="about__job">
+              Created some API logics and functionalities with POSTGRESS,
+              Sequelize and NodeJS with the guide of the backend engineers and
+              also Worked closely with a team of mentors, PM, frontend
+              developers and backend developers.
+            </p>
+          </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="Education">
         <div className="section__header">
@@ -68,7 +104,7 @@ function Resume({ menu, changeMenu }) {
 
         <div className="section__body education">
           Bsc. Electrical and Electronics Engineering at Obafemi Awolowo
-          University <span className="education__year">2018-Present</span>
+          University <span className="education__year">2018 - Present</span>
         </div>
       </div>
 
