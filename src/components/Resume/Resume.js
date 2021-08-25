@@ -57,7 +57,7 @@ function Resume({ menu, changeMenu }) {
 
         <div className="job">
             <p className="job__title">
-              Ikarely health, <span>frontend developer(contrast)</span>
+              Ikarely health, <span>frontend developer(contract)</span>
             </p>
             <p className="job__duration">december 2020 - june 2021</p>
             <p className="about__job">

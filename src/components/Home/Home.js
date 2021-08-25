@@ -17,9 +17,9 @@ function Home() {
           ability to adapt and learn.
         </div>
 
-        <div className="explore__btn">
+        <div className="explore__cover">
           <Link to="/work">
-            <button>Explore</button>
+            <button className="explore__btn">Explore</button>
           </Link>
         </div>
       </div>

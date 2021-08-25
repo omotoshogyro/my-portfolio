@@ -17,7 +17,7 @@
   line-height: 1.5;
 }
 
-.explore__btn > button {
+button.explore__btn {
   color: #fff;
   width: 70vw;
   border: none;
@@ -26,12 +26,11 @@
   margin-top: 20px;
   background-color: #10105370;
 }
-
-.explore__btn {
+.explore__cover {
   text-align: center;
   margin: 30px;
 }
-.explore__btn > button a {
+.explore__cover a{
   text-decoration: none;
   color: #fff;
 }
@@ -45,14 +44,14 @@
     display: block;
     font-size: smaller;
   }
-  .explore__btn > button {
+  .explore__cover > button {
     text-align: center;
     font-size: 14px;
   }
 }
 
 @media screen and (min-width: 425px) {
-  .explore__btn > button {
+  .explore__cover > a button {
     width: 30vw;
   }
 }
