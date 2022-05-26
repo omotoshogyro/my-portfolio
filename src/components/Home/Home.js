@@ -12,8 +12,8 @@ function Home() {
 
         <div className="home__intro__body">
           I'm a <span>Frontend Developer</span>. I love bringing out ideas to
-          live with my coding skills. I use Javascript/React to implement
-          high end functionalities and experience, My greatest strength is my
+          live with my coding skills. I use Javascript, React and React Native to implement
+          high end functionalities and user experience, My greatest strength is my
           ability to adapt and learn.
         </div>
 
