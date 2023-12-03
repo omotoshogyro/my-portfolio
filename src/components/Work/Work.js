@@ -10,44 +10,52 @@ function Work({ menu, changeMenu }) {
   const projects = [
     {
       id: 1,
-      title: "Feather Beta",
+      title: "FEATHER",
       language: "React Native",
       info: "A POS system like Fintech application with a special feature of depositing and withdrawing.",
       live: "https://play.google.com/store/apps/details?id=feather.peer",
-      github: "",
+      // github: "",
     },
     {
       id: 2,
-      title: "Haul247 MobileAPP(Unfinished)",
+      title: "MUNCH UK",
+      language: "React Native",
+      info: "A food ordering mobile application",
+      live: "https://play.google.com/store/apps/details?id=com.munchconsumer.app",
+      // github: "https://github.com/Haul247-Tech/client-mobile",
+    },
+    {
+      id: 2,
+      title: "HAUL247",
       language: "React Native",
       info: "A mobile app for a cargo delivery company.",
       live: "exp://exp.host/@gyroscope/haul247-mobile",
-      github: "https://github.com/Haul247-Tech/client-mobile",
+      // github: "https://github.com/Haul247-Tech/client-mobile",
     },
     {
       id: 3,
-      title: "Ikarely",
+      title: "IKARELY",
       language: "React + Material UI+ Tailwind",
       info: "A health care startup, bringing healthcare to doorstep.",
       live: "https://ikarely.netlify.app/",
-      github: "",
+      // github: "",
     },
     {
       id: 4,
-      title: "Foodly",
+      title: "FOODLY",
       language: "React, CSS ",
       info: "A Random food app UI from figma comummity.",
       live: "https://foodly-design.netlify.app/",
       github: "https://github.com/omotoshogyro/food-app",
     },
-    {
-      id: 5,
-      title: "ENYE Test",
-      language: "React, CSS",
-      info: "A frontend test for the ENYE Cohort Internship.",
-      live: "https://enyeprofiles.netlify.app/",
-      github: "https://github.com/omotoshogyro/enye-frontend",
-    },
+    // {
+    //   id: 5,
+    //   title: "ENYE Test",
+    //   language: "React, CSS",
+    //   info: "A frontend test for the ENYE Cohort Internship.",
+    //   live: "https://enyeprofiles.netlify.app/",
+    //   github: "https://github.com/omotoshogyro/enye-frontend",
+    // },
 
     
   ];
@@ -73,12 +81,12 @@ function Work({ menu, changeMenu }) {
                   </a>
                 </small>
 
-                <small>
+                {github && <small>
                   <a href={github} target="_blank" rel="noopener noreferrer">
                     {" "}
                     <GitHubIcon /> Github{" "}
                   </a>
-                </small>
+                </small>}
               </div>
             </div>
           </div>

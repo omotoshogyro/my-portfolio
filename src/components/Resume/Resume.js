@@ -11,21 +11,20 @@ function Resume({ menu, changeMenu }) {
     <div className="resume">
       <div className="resume__header">
         <h1 className="myname">Okikiola Omotosho</h1>
-        <p className="mystack">Frontend Developer</p>
+        <p className="mystack">Mobile Engineer</p>
       </div>
 
-      <div className="resume__description">
+      {/* <div className="resume__description">
         <p className="word">
-        I'm a frontend developer, I build websites using React and mobile apps using React Native, I love bringing out ideas 
-        to live with my coding skills, I
-        develop websites with good UI and responsiveness that will make the browsers proud. 
-        Higly skilled in implementing core frontend devevelopment
-        tasks including API integration, Proficient in liasing with 
-        team members and remote client to effectively conduct requirement gathering
-        and optimize solution as per client 
-        requirements.
+          I'm a Mobile Engineer, I build websites using React and mobile apps
+          using React Native, I love bringing out ideas to live with my coding
+          skills, I develop websites with good UI and responsiveness that will
+          make the browsers proud. Higly skilled in implementing core frontend
+          devevelopment tasks including API integration, Proficient in liasing
+          with team members and remote client to effectively conduct requirement
+          gathering and optimize solution as per client requirements.
         </p>
-      </div>
+      </div> */}
 
       <div className="skills">
         <div className="section__header">
@@ -34,7 +33,7 @@ function Resume({ menu, changeMenu }) {
         </div>
 
         <div className="section__body">
-          HTML, CSS/SASS, Tailwind CSS, Javascript, React, React Native, Basic NodeJS.
+          HTML, CSS/SASS, Javascript/Typescript, CI/CD, React, React Native, SwiftUI.
         </div>
       </div>
       <div className="skills">
@@ -44,7 +43,8 @@ function Resume({ menu, changeMenu }) {
         </div>
 
         <div className="section__body">
-        Context API, Redux,  Firebase, Styled Component, React Native CLI,Animated API, Expo, Git, PWA's, NodeJS, Express, MongoDB, Web Sockets, SEO.
+           Redux, Context API, SWR, Firebase, Styled Component, Expo, SocketIO,
+          Firebase, Jest, Flipper, Amplitude & Mixpanel for Analytics
         </div>
       </div>
 
@@ -55,69 +55,105 @@ function Resume({ menu, changeMenu }) {
         </div>
 
         <div className="section__body">
-
-        <div className="job">
+          <div className="job">
             <p className="job__title">
-            FEATHER AFRICA, <span>FRONTEND DEVELOPER</span>
+              FEATHER AFRICA, <span>MOBILE ENGINEER</span>
             </p>
-            <p className="job__duration">FEBRUARY 2022</p>
+            <p className="job__duration">JANUARY 2022 - Till Date</p>
             <p className="about__job">
-            I joined the feather africa enginering team in building a fintech platform, Built complex layouts and design 
-            with pixel perfect and high level user interactions and performance, I implemented functionalities such as
-            Receipt generations and sharing, Peer to Peer user searching  e.t.c
-            </p>
-          </div>
-
-        <div className="job">
-            <p className="job__title">
-              Haul247, <span>FRONTEND DEVELOPER (Web & Mobile)</span>
-            </p>
-            <p className="job__duration">NOVEMBER 2021 - JANUARY 2022</p>
-            <p className="about__job">
-            Built the mobile app and website for a cargo delivery company using ReactJS and Styled component
-            for the web and React native and Typescript for the Mobile app,  Implemented the API's and built figma
-            components, Added a licence upload and complete verification, I also implemented the dashboard for
-            the client app which shows the statistics about the drivers and their location and distance distance 
-            travelled.
+              ● Developed and maintained a mobile application for a fintech
+              company, providing users with secure access to their financial
+              accounts and transactions. <br />
+              ● Implemented robust security features, such as biometric
+              authentication and encryption, to protect sensitive financial data
+              and ensure compliance with industry regulations. <br />
+              ● Collaborated with the backend developer to integrate APIs
+              enabling users to view account balances, transaction history, and
+              perform transactions. <br />
+              ● Implemented features for peer-to-peer payments, bill payments,
+              and fund transfers, ensuring seamless and secure financial
+              transactions within the app. <br />
+              ● Implement a searching feature where a user can search for an
+              agent around to get cash while they transfer the cash through the
+              mobile application. <br />● Ensured the user application is well
+              connected to the agent agent application and users can search for
+              agent in real time, Also used <span> Google Map API</span> to show the users
+              locations in real time <br />
+              ● Utilized <span> Firebase </span> and expo push notification for <span> Push
+              notifications </span>, Making users and agent get an instant notification
+              of their transaction status. <br />
+              ● Conducted thorough testing, including UI/UX testing, security
+              testing, and performance testing, to identify and resolve issues,
+              ensuring a stable and reliable fintech application. <br />
+              ● Regularly reviewed and optimized the application performance,
+              addressing any latency issues or bottlenecks to provide a smooth
+              and responsive user experience. <br />
+              ● Provided technical support to customers and resolved issues
+              promptly, ensuring a positive user experience and building trust
+              in the fintech platform. <br />
             </p>
           </div>
 
           <div className="job">
             <p className="job__title">
-              Ikarely health, <span>frontend developer(contract)</span>
+              MUNCH UK, <span>MOBILE DEVELOPER</span>
             </p>
-            <p className="job__duration">december 2020 - june 2021</p>
+            <p className="job__duration">JULY 2022 - SEPTEMBER 2022</p>
             <p className="about__job">
-              I joined the team of health care professionals and software
-              engineers in building an health care service platform, Implemented
-              the API's and built figma components using REACT JS, CSS and
-              Material UI managed the app state using MobX and Context API.
+              ● Developed and maintained a mobile application for a restaurant,
+              featuring real-time order tracking using <span> Socket.IO </span> technology,
+              allowing customers to monitor the progress of their orders. <br />
+              ● Implemented Socket.IO technology to establish bidirectional
+              communication between the user application and the server,
+              enabling instant updates on order status, real-time order tracking
+              and delivery information. <br />
+              ● Designed a user-friendly and intuitive interface with a strong
+              focus on high-quality mobile UI experiences that provided
+              customers with a seamless ordering experience, including menu
+              browsing, customization, and order placement. <br />
+              ● Collaborated with backend developers to integrate Socket.IO for
+              live order updates and synchronize order information with both the
+              driver application and the user application. <br />
+              ● Facilitated communication between the restaurant application,
+              the driver application, and the user application, ensuring orders
+              were assigned to drivers, tracked in real-time, and delivered
+              efficiently. <br />
+              ● Created a driver application that allowed delivery personnel to
+              receive and manage orders, navigate to the delivery location, and
+              provide timely updates on order status to both the restaurant and
+              the customer. <br />
+              ● Implemented geolocation services using <span>Google Map API </span> and
+              <span> Socket.IO</span> to provide real-time tracking of drivers, ensuring
+              accurate delivery estimates and order status updates for
+              customers. <br />
+              ● Added analytics using <span> MixPanel</span> to track and monitor users
+              actions on the application so as to control user retention rates
+              and monitor convertions. <br />
+              ● Implemented the payment process on both the user application and
+              a scheduled payout plan on the driver application using <span>Stripe</span>.{" "}
+              <br />
+              ● Conducted thorough testing to ensure seamless functionality and
+              performance of both ther user and driver mobile applications,
+              addressing any issues with order synchronization, <span> Socket.IO </span>
+              communication, and user experience. <br />
+              ● Utilized <span> Firebase </span> and <span> expo </span> push notification for push
+              notifications, keeping customers, drivers and the restaurant
+              informed about order status changes instantly and the order
+              delivery details. <br />
             </p>
           </div>
 
-          <div className="job">
-            <p className="job__title">
-              Enye Cohort, <span>frontend developer(Test)</span>
-            </p>
-            <p className="job__duration">march 2021</p>
-            <p className="about__job">
-              Created User interface based on the datas we get back from the API
-              provided to us and also integrated the API to the project, Added
-              some functionality such as filtering, searching and pagination
-              with a bit of animated flow using CSS animations.
-            </p>
-          </div>
 
           <div className="job">
             <p className="job__title">
-              Africonnect, <span>Backend Developer (Intern)</span>
+              IKARELY, <span>frontend developer(contract)</span>
             </p>
-            <p className="job__duration">march 2021 - may 2021</p>
+            <p className="job__duration">MARCH 2020 - NOVEMBER 2021</p>
             <p className="about__job">
-              Created some API logics and functionalities with POSTGRESS,
-              Sequelize and NodeJS with the guide of the backend engineers and
-              also Worked closely with a team of mentors, PM, frontend
-              developers and backend developers.
+            ● Developed and maintained the frontend of a healthcare web application aimed at connecting patients with partnered healthcare professionals, ensuring a seamless and user-friendly experience. <br />
+            ● Collaborated with the Product designer to design the UX & UI of the projects in Figma. <br />
+            ● Collaborated with backend developers to integrate frontend components seamlessly with the application's server, ensuring efficient data transfer and
+              synchronization. <br />
             </p>
           </div>
         </div>

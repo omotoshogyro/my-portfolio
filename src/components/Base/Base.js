@@ -4,6 +4,7 @@ import "./Base.css";
 
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import CallMadeIcon from "@material-ui/icons/CallMade";
 
 function Base({ menu, changeMenu }) {
@@ -17,10 +18,18 @@ function Base({ menu, changeMenu }) {
         </h1>
 
         <div className="intro__body">
-          I'm a <span>Frontend Developer</span>. I love bringing out ideas to
-          live with my coding skills. I use Javascript/React to implement
-          high end functionalities and experience, My greatest strength is my
-          ability to adapt and learn.
+          I'm a <span className="highlight">Mobile Engineer</span>. skilled in harnessing the power of
+          both <span>React Native</span> and <span>SwiftUI</span> development to
+          craft exceptional applications. I blend the efficiency of
+          cross-platform development with the precision of native iOS to deliver
+          seamless and polished user experiences, My passion lies in the
+          intersection of innovation and usability on bringing design ideas to
+          life by transforming concepts into beautiful, functional and well
+          performant mobile applications. My expertise lies in creating
+          innovative and efficient solutions that not only meet but exceed the
+          expectations of users. Join me on a journey where the best of React
+          Native and native iOS converge to build extraordinary mobile
+          solutions. Let's turn ideas into impeccable realities!
         </div>
       </div>
 
@@ -57,6 +66,13 @@ function Base({ menu, changeMenu }) {
             <a href="https://twitter.com/computer_adikt">
               <TwitterIcon className="icon" />
               <p className="icon__type">Twitter</p>
+              <CallMadeIcon className="arrow icon" />
+            </a>
+          </div>
+          <div className="icons__title">
+            <a href="https://www.linkedin.com/in/okikiolaomotosho">
+              <LinkedInIcon className="icon" />
+              <p className="icon__type">LinkedIn</p>
               <CallMadeIcon className="arrow icon" />
             </a>
           </div>
