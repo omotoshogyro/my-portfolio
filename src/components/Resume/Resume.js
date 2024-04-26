@@ -55,11 +55,26 @@ function Resume({ menu, changeMenu }) {
         </div>
 
         <div className="section__body">
+
+        <div className="job">
+            <p className="job__title">
+            KLOZA, <span>MOBILE ENGINEER(contract)</span>
+            </p>
+            <p className="job__duration">JANUARY 2024 - MARCH 2024</p>
+            <p className="about__job">
+              ● Implemented a feed screen where users can see posts (Video, Photo and Text) 
+              create by other users. <br />
+              ● Added some social features where users can create posts(Video, Text and Photo) and can comment, like a specific post<br />
+              ● Implemented a chat feature for user to users to chat with real time message status and <span>push notification </span> alerts <br />
+              ● I implemented a searching feature where a users can search for other users to follow<br />
+              ● Deployed to both Appstore(IOS) and Playstore(Android)<br />
+            </p>
+          </div>
           <div className="job">
             <p className="job__title">
               FEATHER AFRICA, <span>MOBILE ENGINEER</span>
             </p>
-            <p className="job__duration">JANUARY 2022 - Till Date</p>
+            <p className="job__duration">JANUARY 2022 - FEBRUARY 2024</p>
             <p className="about__job">
               ● Developed and maintained a mobile application for a fintech
               company, providing users with secure access to their financial
@@ -146,7 +161,7 @@ function Resume({ menu, changeMenu }) {
 
           <div className="job">
             <p className="job__title">
-              IKARELY, <span>frontend developer(contract)</span>
+              IKARELY, <span>FRONTEND DEVELOPER(contract)</span>
             </p>
             <p className="job__duration">MARCH 2020 - NOVEMBER 2021</p>
             <p className="about__job">

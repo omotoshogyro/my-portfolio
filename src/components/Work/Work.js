@@ -10,6 +10,14 @@ function Work({ menu, changeMenu }) {
   const projects = [
     {
       id: 1,
+      title: "KLOZA",
+      language: "React Native",
+      info: "A social media like application to connect africans together",
+      live: "https://www.kloza.app/",
+      // github: "",
+    },
+    {
+      id: 1,
       title: "FEATHER",
       language: "React Native",
       info: "A POS system like Fintech application with a special feature of depositing and withdrawing.",
