@@ -70,6 +70,8 @@ function Resume({ menu, changeMenu }) {
               ● Deployed to both Appstore(IOS) and Playstore(Android)<br />
             </p>
           </div>
+
+          
           <div className="job">
             <p className="job__title">
               FEATHER AFRICA, <span>MOBILE ENGINEER</span>
