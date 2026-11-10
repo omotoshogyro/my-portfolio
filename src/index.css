@@ -1,9 +1,31 @@
-body {
-  margin: 0;
-  /* font-family: "Lato", sans-serif; */
-  font-family: "Roboto", sans-serif;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-canvas: #f1f1f6;
+  --color-ink: #1b1b1b;
+  --color-muted: #8a8a93;
+  --color-line: #e2e2e8;
+  --color-accent: #2498f4;
 }
 
-code {
-  font-family: "Roboto", sans-serif;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
